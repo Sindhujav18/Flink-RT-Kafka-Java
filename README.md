@@ -15,4 +15,6 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
 <td align="center"><a href="https://github.com/dexterstr"><img src="https://avatars.githubusercontent.com/u/31917612?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Tarun Sarpanjeri</b></sub></a><br /></td>
 
+<td align="center"><a href="https://github.com/neeleshsaladi"><img src="https://avatars.githubusercontent.com/u/42808129?s=400&u=133da9540a40568c5847d37a0a2c7454ae83c3da&v=4" width="100px;" alt=""/><br /><sub><b>Neelesh Saladi</b></sub></a><br /></td>
+
 </table>
