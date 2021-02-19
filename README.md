@@ -51,6 +51,9 @@ In Flink – there are various connectors available :
  </p>
 
 
+### Resources:
+- [Apache_Flink_Kafka_Guide](https://www.ververica.com/blog/kafka-flink-a-practical-how-to)
+- [Apache_Flink_Kakfa_connection](https://ci.apache.org/projects/flink/flink-docs-stable/dev/connectors/kafka.html)
 ## Demonstration
 
 #### Vineetha Yenugula
