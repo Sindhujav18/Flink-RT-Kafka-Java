@@ -89,7 +89,15 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
 - We will start reading the streams from a given topic using kafka streams java class.
 
-- source code for kafka streams is 
+- source code for kafka streams is [kafka-streams](https://github.com/Sindhujav18/flink-kafka-java/blob/main/kafka-streams)
+
+- After creating producer and streams java files, now start the zookeeper service, kafka server and create a topic in the local host.
+
+- Now run the producer class and Streams class in intelliJ IDE.
+
+Output snippet :
+
+
 
 
 
