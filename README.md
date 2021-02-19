@@ -67,6 +67,15 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ## Demonstration skill:
 - I would like to demonstrate on kafka application using intelliJ idea.
 
+## Prerequisites:
+- Apache Kafka 2.13
+- Java (Java 8 or Java 11)
+- Zookeeper 3.4
+- IntelliJ IDE
+- Powershell
+- Maven
+
+
 ---
 ## Sindhuja Valeti
 
