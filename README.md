@@ -20,7 +20,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 </table>
 
 ## Mohan Krishna Alavala
---- 
+
 ## Demonstration Skill:
 - I'm going to give demonstration on installation and configuration of kafka on windows machine.
 
@@ -31,6 +31,13 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 - IntelliJ IDE
 - Powershell
 
+## Introduction to Kafka
+- You can instal kafka by clicing on the following [link](https://kafka.apache.org/downloads) 
+- After download is completed, you can get a tar file. Extract the tar file by useing command 
+1. tar -xzf kafka_2.13-2.7.0.tgz
+2. cd kafka_2.13-2.7.0
+- After that you need to set the environment variable under KAFKA_HOME with C:\kafka_2.13-2.7.0
+---
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
 - Apache Kafka is a distributed stream processing system supporting high fault-tolerance.
