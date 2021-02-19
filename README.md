@@ -19,6 +19,33 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
 </table>
 
+## Overview Of Apache Flink and Apache Kafka:
+- Apache Flink is a stream processing framework that can be used easily with Java. 
+- Apache Kafka is a distributed stream processing system supporting high fault-tolerance.
+
+## Flink Usage:
+Apache Flink allows a real-time stream processing technology. The framework allows using multiple third-party systems as stream sources or sinks.
+In Flink – there are various connectors available :
+- Apache Kafka (source/sink)
+- Apache Cassandra (sink)
+- Amazon Kinesis Streams (source/sink)
+- Elasticsearch (sink)
+- Hadoop FileSystem (sink)
+- RabbitMQ (source/sink)
+- Apache NiFi (source/sink)
+- Twitter Streaming API (source)
+
+## Kafka Usage:
+
+
+
+
+
+
+
+### Flink-Kafka-Interaction:
+
+
 ## Demonstration
 
 #### Vineetha Yenugula
