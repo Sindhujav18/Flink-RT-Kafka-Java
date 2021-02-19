@@ -27,6 +27,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ## Prerequisites:
 - Apache Kafka 2.13
 - Zookeeper 3.4
+- Maven
 - Java (Java 8 or Java 11)
 - IntelliJ IDE
 - Powershell
@@ -48,6 +49,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ![image2](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int2.png)
 - Now, you need to add dependencies to pom.xml file, there are some mandotory dependencies that you need to add.
 ![image3](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int3.png)
+- Demonstration Video: https://app.vidgrid.com/view/0POsipXWwQ6Q
 
 ## Basic commands to use kafka
 - To start Kafka environment
