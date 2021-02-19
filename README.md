@@ -95,7 +95,9 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
 - Now run the producer class and Streams class in intelliJ IDE.
 
-Output snippet :
+## Output snippet :
+
+ ![](https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/kafka%20streams%20application.PNG?raw=true)
 
 
 
