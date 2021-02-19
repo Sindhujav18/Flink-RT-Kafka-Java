@@ -45,7 +45,21 @@ To perform operations on dataset using bigdata tools like flink and kafka.
  ![image1](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int1.png)
 
 - Next, you need to select the name of the project, which will be the artifact id and click on finish.
+![image2](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int2.png)
 - Now, you need to add dependencies to pom.xml file, there are some mandotory dependencies that you need to add.
+![image3](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int3.png)
+
+## Basic commands to use kafka
+- To start Kafka environment
+---
+``bin/zookeeper-server-start.sh config/zookeeper.properties``
+
+``bin/kafka-server-start.sh config/server.properties``
+
+## References
+- https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm 
+- https://kafka.apache.org/quickstart 
+
 ---
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
