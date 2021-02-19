@@ -22,9 +22,11 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ## Mohan Krishna Alavala
 
 ## Demonstration Skill:
+
 - I'm going to give demonstration on installation and configuration of kafka on windows machine.
 
 ## Prerequisites:
+
 - Apache Kafka 2.13
 - Zookeeper 3.4
 - Maven
@@ -33,42 +35,54 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 - Powershell
 
 ## Introduction to Kafka
-- You can instal kafka by clicing on the following [link](https://kafka.apache.org/downloads) 
-- After download is completed, you can get a tar file. Extract the tar file by useing command 
+
+- You can instal kafka by clicing on the following [link](https://kafka.apache.org/downloads)
+- After download is completed, you can get a tar file. Extract the tar file by useing command
+
 1. tar -xzf kafka_2.13-2.7.0.tgz
 2. cd kafka_2.13-2.7.0
+
 - After that you need to set the environment variable under KAFKA_HOME with C:\kafka_2.13-2.7.0
 
 ## Kafka set up using Maven
+
 - To demonstrate I'm creating a project using maven in IntelliJ IDE.
 - You need to slect the Maven in the
- left pane and java version on the start screen. Now click on finish
- ![image1](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int1.png)
+  left pane and java version on the start screen. Now click on finish
+  ![image1](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int1.png)
 
 - Next, you need to select the name of the project, which will be the artifact id and click on finish.
-![image2](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int2.png)
+  ![image2](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int2.png)
 - Now, you need to add dependencies to pom.xml file, there are some mandotory dependencies that you need to add.
-![image3](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int3.png)
+  ![image3](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int3.png)
 - Demonstration Video: https://app.vidgrid.com/view/0POsipXWwQ6Q
 
 ## Basic commands to use kafka
-- To start Kafka environment
----
-``bin/zookeeper-server-start.sh config/zookeeper.properties``
 
-``bin/kafka-server-start.sh config/server.properties``
+- To start Kafka environment
+
+---
+
+`bin/zookeeper-server-start.sh config/zookeeper.properties`
+
+`bin/kafka-server-start.sh config/server.properties`
 
 ## References
-- https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm 
-- https://kafka.apache.org/quickstart 
+
+- https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm
+- https://kafka.apache.org/quickstart
 
 ---
+
 ## Sindhu Rani Goli
+
 ## Demonstration skill:
+
 - Demonstration on creating produce kafka application using intelliJ idea.
-- Creating topic, running and display 10 messages using powershell and intelliJ 
+- Creating topic, running and display 10 messages using powershell and intelliJ
 
 ## Prerequisites:
+
 - Apache Kafka 2.13
 - Java (Java 8 or Java 11)
 - Zookeeper 3.4
@@ -84,7 +98,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 - Create log4j2.xml file in resources. This defines a console appender and formats the output.
 - We define 3 loggers root logger, console logger and application logger.
 - we create a java class on right clicking on src main java node in project explorer and give class and package names.
-- Then edit confiurations by selecting edit configurations and then applications in templates. 
+- Then edit confiurations by selecting edit configurations and then applications in templates.
 - Now the the zoomkeeper and kafka commands are run and topic name is given as well in powershell.
 - Run the project in intelliJ idea and the messages are displayed.
 
@@ -93,13 +107,14 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ![image1](https://github.com/Sindhujav18/flink-kafka-java/blob/main/vidgrid.PNG)
 
 ## Demonstration video:
-Link: https://app.vidgrid.com/view/LdVb2QAG0peC 
 
+Link: https://app.vidgrid.com/view/LdVb2QAG0peC
 
 ---
+
 ## Sindhuja Valeti
 
-## Demonstration Skill: 
+## Demonstration Skill:
 
 - Creating Kafka Streams application.
 - Reading a stream from kafka cluster and printing key value pair on console
@@ -130,15 +145,15 @@ Link: https://app.vidgrid.com/view/LdVb2QAG0peC
 
 ## Output snippet :
 
- ![](https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/kafka%20streams%20application.PNG?raw=true)
+![](https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/kafka%20streams%20application.PNG?raw=true)
 
- ## Vidgrid video link :
+## Vidgrid video link :
 
- https://app.vidgrid.com/view/JOLwn5RU57HR
+https://app.vidgrid.com/view/JOLwn5RU57HR
 
- ## References :
+## References :
 
- - https://medium.com/@chandreshpancholi007/how-to-setup-apache-kafka-source-code-on-intellij-b204966d7c2
+- https://medium.com/@chandreshpancholi007/how-to-setup-apache-kafka-source-code-on-intellij-b204966d7c2
 
 - http://www.siddharthpandey.net/how-to-build-a-custom-kafka-producer-application/
 
@@ -146,16 +161,20 @@ Link: https://app.vidgrid.com/view/LdVb2QAG0peC
 
 ## Vineetha Yenugula
 
-## Demonstration Skill:  
+## Demonstration Skill:
+
 This project is use a simple Flink job to show how to integrate Apache Kafka to Flink using the Flink Connector for Kafka.
 
 ## Overview Of Apache Flink and Apache Kafka:
-- Apache Flink is a stream processing framework that can be used easily with Java. 
+
+- Apache Flink is a stream processing framework that can be used easily with Java.
 - Apache Kafka is a distributed stream processing system supporting high fault-tolerance.
 
 ## Flink Usage:
+
 Apache Flink allows a real-time stream processing technology. The framework allows using multiple third-party systems as stream sources or sinks.
 In Flink – there are various connectors available :
+
 - Apache Kafka (source/sink)
 - Apache Cassandra (sink)
 - Amazon Kinesis Streams (source/sink)
@@ -166,6 +185,7 @@ In Flink – there are various connectors available :
 - Twitter Streaming API (source)
 
 ## Kafka Usage:
+
 In short, Kafka is used for stream processing, website activity tracking, metrics collection and monitoring, log aggregation, real-time analytics, CEP, ingesting data into Spark, ingesting data into Hadoop, CQRS, replay messages, error recovery, and guaranteed distributed commit log for in-memory computing (microservices).
 
 ### Flink-Kafka-Interaction:
@@ -182,6 +202,7 @@ In short, Kafka is used for stream processing, website activity tracking, metric
 - And should know how to run commands in command line interface.
 
 ## Start Kafka and Create Topic
+
 In the kafka installed directory need to opn the administator and run these commands.
 
 Kafka uses ZooKeeper, if you do not have Zookeeper running, you can start it using the following command:
@@ -192,13 +213,13 @@ Kafka uses ZooKeeper, if you do not have Zookeeper running, you can start it usi
 
 Start a Kafka broker by running the following command in a new terminal:
 
-``` bash
+```bash
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 ```
 
 In another terminal, run the following command to create a Kafka topic called `flink-kafka-interaction`:
 
-``` bash
+```bash
 .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic flink-kafka-Interaction
 .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list
 ```
@@ -208,7 +229,7 @@ In another terminal, run the following command to create a Kafka topic called `f
 In the project folder:
 
 ```
-$ mvn clean package 
+$ mvn clean package
 ```
 
 And run the Flink Consumer:
@@ -217,7 +238,7 @@ And run the Flink Consumer:
 $ mvn exec:java -Dexec.mainClass=com.grallandco.demos.ReadFromKafka
 ```
 
-and Producer: 
+and Producer:
 
 ```
 mvn exec:java -Dexec.mainClass=com.grallandco.demos.WriteToKafka
@@ -227,7 +248,6 @@ You should see messages printed in the Consumer console.
 
 You can run this application directly in a Flink cluster.
 
-
 ## output images:
 
 <p align="center">
@@ -235,12 +255,12 @@ You can run this application directly in a Flink cluster.
      alt="Size Limit logo by Anton Lovchikov" width="800" height="400">
  </p>
 
-
 ## vid-grid video:
 
 - [Vid_Grid_Video_Link](https://use.vg/2GP7w3)
 
 ### Resources:
+
 - [Apache_Flink_Kafka_Guide](https://www.ververica.com/blog/kafka-flink-a-practical-how-to)
 - [Apache_Flink_Kakfa_connection](https://ci.apache.org/projects/flink/flink-docs-stable/dev/connectors/kafka.html)
 
@@ -257,7 +277,6 @@ You can run this application directly in a Flink cluster.
 
 - Apache Flink Installed (1.12.1)
 - Java Installed (Java8 or Java11)
-- IntelliJ IDE installed (or)
 - Eclipse IDE installed
 <!-- * NetCat Installated: [https://nmap.org/download.html](https://nmap.org/download.html) -->
 
@@ -279,14 +298,21 @@ You can run this application directly in a Flink cluster.
 ### Flink set up using Eclipse.
 
 - Using Eclipse create a new Java project.
+  ![Create](./images/1Create.png)
 - You can name the project as WordCount or with any name you choose.
+
 - Add the following JAR in the build path. You can find the jar files in the lib directory in flink directory.
-- Make a Class WordCount
+  ![Jar](./images/2Jar.png)
+- Make a Class WordCount and Line SPlitter
+- Here I am splitting the word and chcecking how many times it occurred in text.
+- Before running application maven build must be done.
+  ![Build](./images/3build.png)
+- Maven test must also be done .
+  ![test](./images/4test.png)
+- Run the java application
+  ![run](./images/5run.png)
 
-
-## Neelesh Saladi 
+## Neelesh Saladi
 
 - Link to my Readme Repo where I explained about the configuring my Flink in my laptop.
 - [Neelesh Saladi Repo](https://github.com/neeleshsaladi/my-flink-project/blob/main/README.md)
-
-
