@@ -99,16 +99,11 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
  ![](https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/kafka%20streams%20application.PNG?raw=true)
 
+## References :
 
+- http://www.siddharthpandey.net/how-to-build-a-custom-kafka-producer-application/
 
-
-
-
-
-
-
-
-
+- https://medium.com/@chandreshpancholi007/how-to-setup-apache-kafka-source-code-on-intellij-b204966d7c2
 
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
