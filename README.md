@@ -63,7 +63,11 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 - https://kafka.apache.org/quickstart 
 
 ---
+## Sindhu Rani Goli
+## Demonstration skill:
+- I would like to demonstrate on kafka application using intelliJ idea.
 
+---
 ## Sindhuja Valeti
 
 ## Demonstration Skill: 
