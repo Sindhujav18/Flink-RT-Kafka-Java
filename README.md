@@ -37,6 +37,15 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 1. tar -xzf kafka_2.13-2.7.0.tgz
 2. cd kafka_2.13-2.7.0
 - After that you need to set the environment variable under KAFKA_HOME with C:\kafka_2.13-2.7.0
+
+## Kafka set up using Maven
+- To demonstrate I'm creating a project using maven in IntelliJ IDE.
+- You need to slect the Maven in the
+ left pane and java version on the start screen. Now click on finish
+ ![image1](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int1.png)
+
+- Next, you need to select the name of the project, which will be the artifact id and click on finish.
+- Now, you need to add dependencies to pom.xml file, there are some mandotory dependencies that you need to add.
 ---
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
