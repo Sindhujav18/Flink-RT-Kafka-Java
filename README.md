@@ -230,20 +230,21 @@ You can run this application directly in a Flink cluster.
 
 ## output images:
 
+<p align="center">
+<img src="https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/Screenshot%20(278).png"
+     alt="Size Limit logo by Anton Lovchikov" width="800" height="400">
+ </p>
+
 
 ## vid-grid video:
 
 - [Vid_Grid_Video_Link](https://use.vg/2GP7w3)
 
-
-
 ### Resources:
 - [Apache_Flink_Kafka_Guide](https://www.ververica.com/blog/kafka-flink-a-practical-how-to)
 - [Apache_Flink_Kakfa_connection](https://ci.apache.org/projects/flink/flink-docs-stable/dev/connectors/kafka.html)
 
-
-- You can find the detailed information like prerequisites, commands and how to run an application in my [Repo_Link](https://github.com/vineetha1996/rt-flink-kafka-java/blob/main/README.md)
-
+---
 
 ## Tarun Sarpanjeri
 
