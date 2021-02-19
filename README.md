@@ -284,5 +284,9 @@ You can run this application directly in a Flink cluster.
 - Make a Class WordCount
 
 
+## Neelesh Saladi 
+
+- Link to my Readme Repo where I explained about the configuring my Flink in my laptop.
+- [Neelesh Saladi Repo](https://github.com/neeleshsaladi/my-flink-project/blob/main/README.md)
 
 
