@@ -190,6 +190,45 @@ In Flink – there are various connectors available :
 ### Resources:
 - [Apache_Flink_Kafka_Guide](https://www.ververica.com/blog/kafka-flink-a-practical-how-to)
 - [Apache_Flink_Kakfa_connection](https://ci.apache.org/projects/flink/flink-docs-stable/dev/connectors/kafka.html)
+
+
+## Tarun Sarpanjeri
+
+### Demonstartion Skill:
+
+- I would like to explain Flink and its configuration and to verify the installation on windows.
+  <br>
+
+### Pre-Requisites:
+
+- Apache Flink Installed (1.12.1)
+- Java Installed (Java8 or Java11)
+- IntelliJ IDE installed (or)
+- Eclipse IDE installed
+<!-- * NetCat Installated: [https://nmap.org/download.html](https://nmap.org/download.html) -->
+
+### Introduction to Flink
+
+- Apache Flink was founded by Data Artisans company and is now developed under Apache License by Apache Flink Community.
+- Apache Flink is the open source, native analytic database for Apache Hadoop.
+- Apache Flink is an Open source stream processing framework for distributed, high performance data streaming application.
+- Flink also provides batch processing, graph processing, Itearative proccessing for Machine learning applications.
+- Flink offers substantially higher processing speeds to spark and hadoop.
+- Flink provides low latency and high throughput.
+
+### Flink download process
+
+- Go to [apache Flink](https://flink.apache.org/downloads.html) and select the stable version and download it.
+- open powershell and untar the downloaded file using `tar -xvf <filename.tgz>`.
+- Set up system variable `FLINK_HOME` and configure it to the `C:\flink-1.12.1` folder location and configure the path accordingly and also update the same in system path too.
+
+### Flink set up using Eclipse.
+
+- Using Eclipse create a new Java project.
+- You can name the project as WordCount or with any name you choose.
+- Add the following JAR in the build path. You can find the jar files in the lib directory in flink directory.
+- Make a Class WordCount
+
 ## Demonstration
 
 #### Vineetha Yenugula
