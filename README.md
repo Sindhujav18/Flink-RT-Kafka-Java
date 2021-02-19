@@ -90,7 +90,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
 ## Output:
 
-![image1]()
+![image1](https://github.com/Sindhujav18/flink-kafka-java/blob/main/vidgrid.PNG)
 
 ## Demonstration video:
 Link: https://app.vidgrid.com/view/LdVb2QAG0peC 
