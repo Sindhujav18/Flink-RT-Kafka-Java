@@ -144,16 +144,10 @@ Link: https://app.vidgrid.com/view/LdVb2QAG0peC
 
 ---
 
+## Vineetha Yenugula
 
-
-
-
-
-
-
-
-
-
+## Demonstration Skill:  
+This project is use a simple Flink job to show how to integrate Apache Kafka to Flink using the Flink Connector for Kafka.
 
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
@@ -172,12 +166,7 @@ In Flink – there are various connectors available :
 - Twitter Streaming API (source)
 
 ## Kafka Usage:
-
-
-
-
-
-
+In short, Kafka is used for stream processing, website activity tracking, metrics collection and monitoring, log aggregation, real-time analytics, CEP, ingesting data into Spark, ingesting data into Hadoop, CQRS, replay messages, error recovery, and guaranteed distributed commit log for in-memory computing (microservices).
 
 ### Flink-Kafka-Interaction:
 
@@ -185,7 +174,6 @@ In Flink – there are various connectors available :
 <img src="https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/1-kafka-flink-pipeline-1.png"
      alt="Size Limit logo by Anton Lovchikov" width="598" height="236">
  </p>
-
 
 ### Resources:
 - [Apache_Flink_Kafka_Guide](https://www.ververica.com/blog/kafka-flink-a-practical-how-to)
