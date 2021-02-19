@@ -174,10 +174,75 @@ In short, Kafka is used for stream processing, website activity tracking, metric
 <img src="https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/1-kafka-flink-pipeline-1.png"
      alt="Size Limit logo by Anton Lovchikov" width="598" height="236">
  </p>
+ 
+## Prerequisites
+- Flink 
+- Kafka
+- Eclipse (To execute java code)
+- And should know how to run commands in command line interface.
+
+## Start Kafka and Create Topic
+In the kafka installed directory need to opn the administator and run these commands.
+
+Kafka uses ZooKeeper, if you do not have Zookeeper running, you can start it using the following command:
+
+```bash
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+```
+
+Start a Kafka broker by running the following command in a new terminal:
+
+``` bash
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+
+In another terminal, run the following command to create a Kafka topic called `flink-kafka-interaction`:
+
+``` bash
+.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic flink-kafka-Interaction
+.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list
+```
+
+## Build and Run the Application
+
+In the project folder:
+
+```
+$ mvn clean package 
+```
+
+And run the Flink Consumer:
+
+```
+$ mvn exec:java -Dexec.mainClass=com.grallandco.demos.ReadFromKafka
+```
+
+and Producer: 
+
+```
+mvn exec:java -Dexec.mainClass=com.grallandco.demos.WriteToKafka
+```
+
+You should see messages printed in the Consumer console.
+
+You can run this application directly in a Flink cluster.
+
+
+## output images:
+
+
+## vid-grid video:
+
+- [Vid_Grid_Video_Link](https://use.vg/2GP7w3)
+
+
 
 ### Resources:
 - [Apache_Flink_Kafka_Guide](https://www.ververica.com/blog/kafka-flink-a-practical-how-to)
 - [Apache_Flink_Kakfa_connection](https://ci.apache.org/projects/flink/flink-docs-stable/dev/connectors/kafka.html)
+
+
+- You can find the detailed information like prerequisites, commands and how to run an application in my [Repo_Link](https://github.com/vineetha1996/rt-flink-kafka-java/blob/main/README.md)
 
 
 ## Tarun Sarpanjeri
@@ -217,10 +282,6 @@ In short, Kafka is used for stream processing, website activity tracking, metric
 - Add the following JAR in the build path. You can find the jar files in the lib directory in flink directory.
 - Make a Class WordCount
 
-## Demonstration
 
-#### Vineetha Yenugula
-In our project i have used a simple Flink job to show how to integrate Apache Kafka to Flink using the Flink Connector for Kafka.
 
-- You can find the detailed information like prerequisites, commands and how to run an application in my [Repo_Link](https://github.com/vineetha1996/rt-flink-kafka-java/blob/main/README.md)
 
