@@ -81,8 +81,13 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
 - Add all the dependencies like kafka-clients, kafka-streams, log4j2 to integrate Kafka with intelliJ IDE.
 
-- Now create a kafka producer java class under the package structure, the source code for producer is 
+- Now create a kafka producer java class under the package structure, the source code for producer is [kafka-producer](https://github.com/Sindhujav18/flink-kafka-java/blob/main/kafka-producer)
 
+- The producer class contains the source code, that generates sample text messages.
+
+- We will start reading the streams from a given topic using kafka streams java class.
+
+- source code for kafka streams is 
 
 
 
