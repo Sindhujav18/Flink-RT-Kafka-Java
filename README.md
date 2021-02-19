@@ -132,6 +132,18 @@ Link: https://app.vidgrid.com/view/LdVb2QAG0peC
 
  ![](https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/kafka%20streams%20application.PNG?raw=true)
 
+ ## Vidgrid video link :
+
+ https://app.vidgrid.com/view/JOLwn5RU57HR
+
+ ## References :
+
+ - https://medium.com/@chandreshpancholi007/how-to-setup-apache-kafka-source-code-on-intellij-b204966d7c2
+
+- http://www.siddharthpandey.net/how-to-build-a-custom-kafka-producer-application/
+
+---
+
 
 
 
