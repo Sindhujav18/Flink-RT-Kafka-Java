@@ -61,6 +61,38 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 - https://kafka.apache.org/quickstart 
 
 ---
+
+## Sindhuja Valeti
+
+## Demonstration Skill: 
+
+- Creating Kafka Streams application.
+- Reading a stream from kafka cluster and printing key value pair on console
+
+## Prerequisites:
+
+- Apache Kafka installed (2.7.0)
+- JDK installed
+- IntelliJ IDE installed (Community Edition : https://www.jetbrains.com/idea/download/#section=windows)
+
+## Procedure and Commands:
+
+- After installing IntelliJ IDE successfully, create a new Maven project with group ID, artifactID and project name.
+
+- Add all the dependencies like kafka-clients, kafka-streams, log4j2 to integrate Kafka with intelliJ IDE.
+
+- Now create a kafka producer java class under the package structure, the source code for producer is 
+
+
+
+
+
+
+
+
+
+
+
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
 - Apache Kafka is a distributed stream processing system supporting high fault-tolerance.
