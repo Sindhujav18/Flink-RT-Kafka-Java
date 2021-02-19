@@ -18,6 +18,17 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 <td align="center"><a href="https://github.com/dexterstr"><img src="https://avatars.githubusercontent.com/u/42808129?s=460&u=133da9540a40568c5847d37a0a2c7454ae83c3da&v=4" width="100px;" alt=""/><br /><sub><b>Neelesh Saladi</b></sub></a><br /></td>
 
 </table>
+## Mohan Krishna Alavala
+--- 
+## Demonstration Skill:
+- I'm going to give demonstration on installation and configuration of kafka on windows machine.
+
+## Prerequisites:
+- Apache Kafka 2.13
+- Zookeeper 3.4
+- Java (Java 8 or Java 11)
+- IntelliJ IDE
+- Powershell
 
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
