@@ -65,7 +65,8 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ---
 ## Sindhu Rani Goli
 ## Demonstration skill:
-- I would like to demonstrate on kafka application using intelliJ idea.
+- Demonstrating on kafka application using intelliJ idea.
+- Creating topic, running and display 10 messages using powershell and intelliJ 
 
 ## Prerequisites:
 - Apache Kafka 2.13
@@ -74,6 +75,23 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 - IntelliJ IDE
 - Powershell
 - Maven
+
+## Steps involved:
+
+- Installation of intelliJ idea and create a new Maven project using appropriate ID's and name of project.
+- Adding plugins and required dependencies in pom.xml file which is called configuration.
+- Then, logging is enabled in our kafka application.
+- Create log4j2.xml file in resources. This defines a console appender and formats the output.
+- We define 3 loggers root logger, console logger and application logger.
+- we create a java class on right clicking on src main java node in project explorer and give class and package names.
+- Then edit confiurations by selecting edit configurations and then applications in templates. 
+- Now the the zoomkeeper and kafka commands are run and topic name is given as well in powershell.
+- Run the project in intelliJ idea and the messages are displayed.
+
+## Output:
+
+![image1]()
+![image2]()
 
 
 ---
@@ -112,11 +130,16 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
  ![](https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/kafka%20streams%20application.PNG?raw=true)
 
-## References :
 
-- http://www.siddharthpandey.net/how-to-build-a-custom-kafka-producer-application/
 
-- https://medium.com/@chandreshpancholi007/how-to-setup-apache-kafka-source-code-on-intellij-b204966d7c2
+
+
+
+
+
+
+
+
 
 ## Overview Of Apache Flink and Apache Kafka:
 - Apache Flink is a stream processing framework that can be used easily with Java. 
