@@ -65,7 +65,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ---
 ## Sindhu Rani Goli
 ## Demonstration skill:
-- Demonstrating on kafka application using intelliJ idea.
+- Demonstration on creating produce kafka application using intelliJ idea.
 - Creating topic, running and display 10 messages using powershell and intelliJ 
 
 ## Prerequisites:
