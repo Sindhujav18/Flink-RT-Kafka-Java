@@ -57,5 +57,7 @@ In Flink – there are various connectors available :
 ## Demonstration
 
 #### Vineetha Yenugula
-In our project i have choosen to work on Flink where i need to extract data from datasets using Flink.
+In our project i have used a simple Flink job to show how to integrate Apache Kafka to Flink using the Flink Connector for Kafka.
+
+- You can find the detailed information like prerequisites, commands and how to run an application in my [Repo_Link](https://github.com/vineetha1996/rt-flink-kafka-java/blob/main/README.md)
 
