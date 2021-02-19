@@ -45,6 +45,11 @@ In Flink – there are various connectors available :
 
 ### Flink-Kafka-Interaction:
 
+<p align="center">
+<img src="https://github.com/Sindhujav18/flink-kafka-java/blob/main/Flink-Kafka-Interaction_Images/1-kafka-flink-pipeline-1.png"
+     alt="Size Limit logo by Anton Lovchikov" width="598" height="236">
+ </p>
+
 
 ## Demonstration
 
