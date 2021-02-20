@@ -311,6 +311,9 @@ You can run this application directly in a Flink cluster.
   ![test](./images/4test.png)
 - Run the java application
   ![run](./images/5run.png)
+  
+  ### Demonstration Video 
+  - [VidGrid](https://use.vg/IdBwnw)
 
 ## Neelesh Saladi
 
