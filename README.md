@@ -97,7 +97,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 - Then, logging is enabled in our kafka application.
 - Create log4j2.xml file in resources. This defines a console appender and formats the output.
 - We define 3 loggers root logger, console logger and application logger.
-- we create a java class on right clicking on src main java node in project explorer and give class and package names.
+- we create a java class on right clicking on src main java node in project explorer and give class name [Producer class](https://github.com/Sindhujav18/flink-kafka-java/blob/main/HelloProducer.java) and package names.
 - Then edit confiurations by selecting edit configurations and then applications in templates.
 - Now the the zoomkeeper and kafka commands are run and topic name is given as well in powershell.
 - Run the project in intelliJ idea and the messages are displayed.
@@ -109,6 +109,10 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ## Demonstration video:
 
 Link: https://app.vidgrid.com/view/LdVb2QAG0peC
+
+## References:
+- https://www.javatpoint.com/installing-intellij-idea-in-kafka  
+- http://www.siddharthpandey.net/how-to-build-a-custom-kafka-producer-application/ 
 
 ---
 
