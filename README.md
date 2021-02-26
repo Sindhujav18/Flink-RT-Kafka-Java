@@ -37,7 +37,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 ## Introduction to Kafka
 
 - You can instal kafka by clicing on the following [link](https://kafka.apache.org/downloads)
-- After download is completed, you can get a tar file. Extract the tar file by useing command
+- After download is completed, you can get a tar file. Extract the tar file by using command
 
 1. tar -xzf kafka_2.13-2.7.0.tgz
 2. cd kafka_2.13-2.7.0
@@ -71,6 +71,7 @@ To perform operations on dataset using bigdata tools like flink and kafka.
 
 - https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm
 - https://kafka.apache.org/quickstart
+- https://www.jetbrains.com/idea/download/#section=windows
 
 ---
 
